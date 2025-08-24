@@ -22,6 +22,7 @@ for i, w in enumerate(weights):
 #修改保存到遠端（GitHub）
 '''
 git add *.py           # 把所有.py檔案加入暫存區
-git commit -m "Save all python files"
+git add .devcontainer/ .github/ model105QQ_2_f2_converted.keras output/model105QQ_2_f2_converted.h5
+git commit -m "Save all python files""Add converted models and project folders"
 git push               # 推送到遠端分支
 '''

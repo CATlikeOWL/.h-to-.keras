@@ -1,0 +1,13 @@
+{
+  "name": "TensorFlow 2.12 Codespace",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10", // 固定 Python 3.10
+  "postCreateCommand": "pip install --upgrade pip && pip install tensorflow==2.12.*",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ]
+    }
+  }
+}
